@@ -4,7 +4,7 @@ import logging
 
 conversation_options = ["Greeting", "Informational", "Fun fact", "Joke", "Weather", "News", "Translation"]
 
-updater = Updater(token='6232531433:AAG5C-w5i1152G8UYuQcBtCx5h1yrCYw6gY', use_context=True)
+updater = Updater(token='your-token-here', use_context=True)
 
 def start(update, context):
     keyboard = [[option] for option in conversation_options]
